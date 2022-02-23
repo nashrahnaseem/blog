@@ -1,0 +1,147 @@
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* Session 43 - starts */
+
+
+
+/* ------------------------------------------------------------------------------------------------------------- */
+
+/* Session 44  */
+  
+
+/* Comment the code for the logo part */
+/* #logo {
+    background-color: grey;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+} */
+/* ------------------------------------------------------------------------------------------------------------- */
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    justify-content:center;
+
+}
+
+nav>div {
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+
+a {
+    text-decoration: none;
+    margin: 30px;
+    font-size: 18px;
+    color: #662d91;
+}
+a:hover{
+    color:#662d91;
+    font-weight: 600;
+}
+
+
+
+header {
+    height: 500px;
+    background-image: url(./Asset/header_image.png);
+   
+}
+
+header>h1 {
+    text-align: left;
+    padding-top: 180px;
+    font-size: 48px;
+    margin-left: 60px;
+
+}
+
+.section>h2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+
+}
+
+.section>p {
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 280px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.div-container {
+    display: flex;
+}
+
+.div-container>div {
+    margin-top: 40px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid black;
+    margin-left: 40px;
+
+}
+
+h3 {
+    padding-top: 10px;
+    
+}
+
+#box {
+    margin-top: 40px;
+
+}
+
+#box>div {
+    /* border: 1px solid black; */
+    height: 420px;
+    width: 400px;
+
+}
+
+.image-container {
+    height: 260px;
+    width: 400px;
+    background-color: grey;
+
+}
+
+#box h2 {
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+#box p {
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+footer {
+    margin-top: 60px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
